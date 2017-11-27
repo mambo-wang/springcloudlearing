@@ -8,3 +8,5 @@ hi forezp,i am from port:8762
 hi forezp,i am from port:8763
 这说明当我们通过调用restTemplate.getForObject(“http://SERVICE-HI/hi?name=“+name,String.class)方法时，
 已经做了负载均衡，访问了不同的端口的服务实例。
+
+ribbon是一个负载均衡客户端，可以很好的控制htt和tcp的一些行为。Feign默认集成了ribbon。

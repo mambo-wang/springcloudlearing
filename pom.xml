@@ -13,7 +13,7 @@
 
     <modules>
         <module>eureka-client</module>
-        <module>eureka</module>
+        <module>eureka-server</module>
     </modules>
 
     <parent>
