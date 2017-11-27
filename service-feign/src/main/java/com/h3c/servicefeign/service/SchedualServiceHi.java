@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * 通过@ FeignClient（“服务名”），来指定调用哪个服务。
  * 比如在代码中调用了service-hi服务的“/hi”接口，代码如下：
  */
-@FeignClient(value = "service-hi")
+@FeignClient(value = "service-hi", fallback = SchedualServiceHiHystric.class)
 public interface SchedualServiceHi {
 
     @RequestMapping(value = "/hi", method = RequestMethod.GET)
