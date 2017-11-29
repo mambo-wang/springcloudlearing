@@ -1,0 +1,20 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: microservice-provider-user
+
+eureka:
+  instance:
+    hostname: localhost
+#    表示将自己的Ip注册到eureka server，如不配置或为false，表示注册所在操作系统的hostname到eureka server
+#    prefer-ip-address: true
+  client:
+#  eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个eureka server
+    registerWithEureka: false
+#    表示是否从eureka server 获取注册信息，默认为true，因为这是一个单点的eureka server，
+#不需要同步其他eureka server节点的数据，故而设置为false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

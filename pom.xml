@@ -6,14 +6,15 @@
 
     <groupId>com.h3c</groupId>
     <artifactId>spring-cloud</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <name>spring-cloud</name>
     <description>demo project for spring boot</description>
 
     <modules>
-        <module>eureka-client</module>
-        <module>eureka-server</module>
+        <module>microservice-provider-user</module>
+        <module>microservice-discovery-eureka</module>
     </modules>
 
     <parent>
