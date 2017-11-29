@@ -8,3 +8,12 @@ spring:
   application:
 #  需要指明spring.application.name,这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name 。
     name: service-hi
+
+# 通过http://localhost:8763/info可以查看系统信息
+info:
+  app:
+    name: @project.artifactId@
+    encoding: @project.build.sourceEncoding@
+    java:
+      source: @java.version@
+      target: @java.version@
