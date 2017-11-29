@@ -9,15 +9,35 @@
         <module name="eureka" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="microservice-consumer-movie" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-discovery-eureka (1)" />
+        <module name="microservice-discovery-eureka-authenticating" />
+        <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-provider-user" />
         <module name="service-feign" />
         <module name="service-ribbon" />
-        <module name="springcloud" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud" enabled="true">
+        <sourceOutputDir name="../microservicesimpleprovideruser/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../microservicesimpleprovideruser/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicesimpleprovideruser" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="main" target="1.5" />
+      <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-discovery-eureka (1)" target="1.8" />
+      <module name="microservice-discovery-eureka-authenticating" target="1.8" />
+      <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
+      <module name="microservice-simple-provider-user" target="1.8" />
+      <module name="microservicesimpleprovideruser" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="springcloud" target="1.8" />
