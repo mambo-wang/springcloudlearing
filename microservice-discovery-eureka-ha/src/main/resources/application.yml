@@ -1,13 +1,16 @@
-server:
-  port: 8761
+
 
 spring:
   application:
-    name: microservice-discovery-eureka
-
+    name: microservice-discovery-eureka-ha
+---
+spring:
+  profiles: peer1
+server:
+  port: 8761
 eureka:
   instance:
-    hostname: localhost
+    hostname: peer1
 #    表示将自己的Ip注册到eureka server，如不配置或为false，表示注册所在操作系统的hostname到eureka server
 #    prefer-ip-address: true
   client:
@@ -17,4 +20,15 @@ eureka:
 #不需要同步其他eureka server节点的数据，故而设置为false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://peer2:${server.port}/eureka/
+---
+spring:
+  profiles: peer2
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    service-url:
+      defaultZone: http://peer1:8761/eureka/
