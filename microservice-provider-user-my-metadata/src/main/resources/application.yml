@@ -22,6 +22,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://user:123456@localhost:8761/eureka/
+    healthcheck:
+      enabled: true  #把微服务健康状态传播到Eureka Server
   instance:
     prefer-ip-address: true
     metadata-map:
