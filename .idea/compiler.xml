@@ -15,6 +15,7 @@
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-provider-user" />
+        <module name="microservice-provider-user (1)" />
         <module name="service-feign" />
         <module name="service-ribbon" />
       </profile>
@@ -36,6 +37,7 @@
       <module name="microservice-discovery-eureka-authenticating" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
+      <module name="microservice-provider-user (1)" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservicesimpleprovideruser" target="1.8" />
       <module name="service-feign" target="1.8" />

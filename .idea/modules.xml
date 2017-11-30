@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-my-metadata/microservice-provider-user-my-metadata.iml" filepath="$PROJECT_DIR$/microservice-provider-user-my-metadata/microservice-provider-user-my-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />

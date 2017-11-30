@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/../microservice-discovery-eureka-authenticating/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka-ha/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/../microservice-provider-user-my-metadata/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
