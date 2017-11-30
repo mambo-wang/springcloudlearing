@@ -26,3 +26,4 @@ eureka:
     prefer-ip-address: true
     metadata-map:
       my-metadata: 我自定义的元数据       # 自定义的元数据，key/value都可以随便写。
+      my-name: 王宝       # 自定义的元数据，key/value都可以随便写。
