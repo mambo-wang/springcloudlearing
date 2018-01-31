@@ -1,14 +1,12 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://user:123456@localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
-#  ½«×Ô¼ºµÄip×¢²áµ½eureka server
     prefer-ip-address: true
 server:
   port: 8763
 
-# Í¨¹ıhttp://localhost:8763/info¿ÉÒÔ²é¿´ÏµÍ³ĞÅÏ¢
 info:
   app:
     name: @project.artifactId@
@@ -18,18 +16,17 @@ info:
       target: @java.version@
 spring:
   application:
-  #  ĞèÒªÖ¸Ã÷spring.application.name,Õâ¸öºÜÖØÒª£¬ÕâÔÚÒÔºóµÄ·şÎñÓë·şÎñÖ®¼äÏà»¥µ÷ÓÃÒ»°ã¶¼ÊÇ¸ù¾İÕâ¸öname ¡£
     name: microservice-provider-user
   jpa:
     generate-ddl: false
     show-sql: true
     hibernate:
       ddl-auto: none
-  datasource:                           # Ö¸¶¨Êı¾İÔ´
-    platform: h2                        # Ö¸¶¨Êı¾İÔ´ÀàĞÍ
-    schema: classpath:schema.sql        # Ö¸¶¨h2Êı¾İ¿âµÄ½¨±í½Å±¾
-    data: classpath:data.sql            # Ö¸¶¨h2Êı¾İ¿âµÄÊı¾İ½Å±¾
-logging:                                # ÅäÖÃÈÕÖ¾¼¶±ğ£¬ÈÃhibernate´òÓ¡³öÖ´ĞĞµÄSQL
+  datasource:                           # æŒ‡å®šæ•°æ®æº
+    platform: h2                        # æŒ‡å®šæ•°æ®æºç±»å‹
+    schema: classpath:schema.sql        # æŒ‡å®šh2æ•°æ®åº“çš„å»ºè¡¨è„šæœ¬
+    data: classpath:data.sql            # æŒ‡å®šh2æ•°æ®åº“çš„æ•°æ®è„šæœ¬
+logging:                                # é…ç½®æ—¥å¿—çº§åˆ«ï¼Œè®©hibernateæ‰“å°å‡ºæ‰§è¡Œçš„SQL
   level:
     root: INFO
     org.hibernate: INFO
