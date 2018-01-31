@@ -3,6 +3,7 @@ package com.h3c.serviceribbon.web;
 import com.h3c.serviceribbon.entity.User;
 import com.h3c.serviceribbon.service.HelloService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +25,10 @@ public class HelloController {
     @Autowired
     HelloService helloService;
 
-    @HystrixCommand(fallbackMethod = "findByIdFallback")
+    @HystrixCommand(fallbackMethod = "findByIdFallback",
+    commandProperties = {
+            @HystrixProperty(name = "execution.isolation.strategy", value = "SEMAPHORE")
+    })
     @GetMapping("/user/{id}")
     public User  findById(@PathVariable Long id) {
         return this.restTemplate.getForObject("http://microservice-provider-user/" + id, User.class);
