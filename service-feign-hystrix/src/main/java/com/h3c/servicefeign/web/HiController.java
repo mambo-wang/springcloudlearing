@@ -1,7 +1,7 @@
 package com.h3c.servicefeign.web;
 
 import com.h3c.servicefeign.entity.User;
-import com.h3c.servicefeign.service.SchedualServiceHi;
+import com.h3c.servicefeign.service.UserFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,17 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HiController {
 
     @Autowired
-    SchedualServiceHi schedualServiceHi;
-
-    @GetMapping(value = "/hi")
-    public String sayHi(@RequestParam String name){
-
-        return schedualServiceHi.sayHiFromClientOne(name);
-    }
+    UserFeignClient userFeignClient;
 
     @GetMapping(value = "/user/{id}")
     public User sayHi(@PathVariable Long id){
 
-        return schedualServiceHi.findById(id);
+        return userFeignClient.findById(id);
     }
 }

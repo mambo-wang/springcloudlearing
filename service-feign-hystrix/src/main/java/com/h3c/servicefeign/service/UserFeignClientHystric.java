@@ -4,11 +4,7 @@ import com.h3c.servicefeign.entity.User;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SchedualServiceHiHystric implements SchedualServiceHi {
-    @Override
-    public String sayHiFromClientOne(String name) {
-        return "sorry" + name;
-    }
+public class UserFeignClientHystric implements UserFeignClient {
 
     @Override
     public User findById(Long id) {
