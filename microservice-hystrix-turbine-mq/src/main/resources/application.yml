@@ -1,0 +1,20 @@
+server:
+  port: 8031
+spring:
+  application:
+    name: microservice-hystrix-turbine-mq
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    perfer-ip-address: true
+#turbine:
+##配置监控哪些微服务
+#  appConfig: service-feign-hystrix,service-ribbon-hystrix
+#  clusterNameExpression: "'default'"
