@@ -14,10 +14,18 @@
         <module name="microservice-discovery-eureka (1)" />
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-discovery-eureka-ha" />
+        <module name="microservice-gateway-zuul" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbine" />
+        <module name="microservice-hystrix-turbine-mq" />
         <module name="microservice-provider-user" />
         <module name="microservice-provider-user (1)" />
+        <module name="microservice-provider-user-metadata" />
         <module name="service-feign" />
+        <module name="service-feign-hystrix" />
         <module name="service-ribbon" />
+        <module name="service-ribbon-hystrix" />
+        <module name="service-ribbon-hystrix-turbine-mq" />
       </profile>
       <profile name="Annotation profile for spring-cloud" enabled="true">
         <sourceOutputDir name="../microservicesimpleprovideruser/target/generated-sources/annotations" />
@@ -36,13 +44,23 @@
       <module name="microservice-discovery-eureka (1)" target="1.8" />
       <module name="microservice-discovery-eureka-authenticating" target="1.8" />
       <module name="microservice-discovery-eureka-ha" target="1.8" />
+      <module name="microservice-gateway-zuul" target="1.8" />
+      <module name="microservice-hystrix-dashboard" target="1.8" />
+      <module name="microservice-hystrix-turbine" target="1.8" />
+      <module name="microservice-hystrix-turbine-mq" target="1.8" />
       <module name="microservice-provider-user" target="1.8" />
       <module name="microservice-provider-user (1)" target="1.8" />
+      <module name="microservice-provider-user-metadata" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservicesimpleprovideruser" target="1.8" />
       <module name="service-feign" target="1.8" />
+      <module name="service-feign-hystrix" target="1.8" />
       <module name="service-ribbon" target="1.8" />
+      <module name="service-ribbon-hystrix" target="1.8" />
+      <module name="service-ribbon-hystrix-turbine-mq" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="springcloudlearing" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,14 +3,30 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie/microservice-consumer-movie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-metadata/microservice-provider-user-metadata.iml" filepath="$PROJECT_DIR$/microservice-provider-user-metadata/microservice-provider-user-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-my-metadata/microservice-provider-user-my-metadata.iml" filepath="$PROJECT_DIR$/microservice-provider-user-my-metadata/microservice-provider-user-my-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" filepath="$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix/service-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix/service-ribbon-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq/service-ribbon-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq/service-ribbon-hystrix-turbine-mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
     </modules>
   </component>
 </project>

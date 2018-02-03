@@ -3,16 +3,19 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-consumer-movie" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-consumer-movie" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka-authenticating" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-gateway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-hystrix-turbine-mq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-user" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-provider-user-my-metadata" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-provider-user-my-metadata/src/main/resources/application.yml" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user-metadata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-feign-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-ribbon-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq" charset="UTF-8" />
   </component>
 </project>
