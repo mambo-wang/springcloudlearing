@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableZuulProxy
-public class ZuulFilterApplication {
+public class ZuulFilterFallbackApplication {
 
     @Bean
     public PreRequestLogFilter preRequestLogFilter() {
@@ -16,6 +16,6 @@ public class ZuulFilterApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ZuulFilterApplication.class, args);
+        SpringApplication.run(ZuulFilterFallbackApplication.class, args);
     }
 }

@@ -17,6 +17,7 @@
         <module name="microservice-file-upload" />
         <module name="microservice-gateway-zuul" />
         <module name="microservice-gateway-zuul-filter" />
+        <module name="microservice-gateway-zuul-filter-fallback" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-hystrix-turbine" />
         <module name="microservice-hystrix-turbine-mq" />
@@ -49,6 +50,7 @@
       <module name="microservice-file-upload" target="1.8" />
       <module name="microservice-gateway-zuul" target="1.8" />
       <module name="microservice-gateway-zuul-filter" target="1.8" />
+      <module name="microservice-gateway-zuul-filter-fallback" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
       <module name="microservice-hystrix-turbine" target="1.8" />
       <module name="microservice-hystrix-turbine-mq" target="1.8" />
