@@ -24,6 +24,7 @@
         <module name="microservice-provider-user" />
         <module name="microservice-provider-user (1)" />
         <module name="microservice-provider-user-metadata" />
+        <module name="microservice-sidecar" />
         <module name="service-feign" />
         <module name="service-feign-hystrix" />
         <module name="service-ribbon" />
@@ -57,6 +58,7 @@
       <module name="microservice-provider-user" target="1.8" />
       <module name="microservice-provider-user (1)" target="1.8" />
       <module name="microservice-provider-user-metadata" target="1.8" />
+      <module name="microservice-sidecar" target="1.8" />
       <module name="microservice-simple-provider-user" target="1.8" />
       <module name="microservicesimpleprovideruser" target="1.8" />
       <module name="service-feign" target="1.8" />

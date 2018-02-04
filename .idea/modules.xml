@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-metadata/microservice-provider-user-metadata.iml" filepath="$PROJECT_DIR$/microservice-provider-user-metadata/microservice-provider-user-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-my-metadata/microservice-provider-user-my-metadata.iml" filepath="$PROJECT_DIR$/microservice-provider-user-my-metadata/microservice-provider-user-my-metadata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-sidecar/microservice-sidecar.iml" filepath="$PROJECT_DIR$/microservice-sidecar/microservice-sidecar.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" filepath="$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
