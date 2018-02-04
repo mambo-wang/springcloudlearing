@@ -26,6 +26,7 @@ public class FileUploadController {
     @RequestMapping(value = "/upload", method = RequestMethod.POST)
     public @ResponseBody
     String handleFileUpload(@RequestParam(value = "file", required = true) MultipartFile file) throws IOException {
+        System.out.println(Runtime.getRuntime().freeMemory());
         byte[] bytes = file.getBytes();
         File fileToSave = new File(file.getOriginalFilename());
         FileCopyUtils.copy(bytes, fileToSave);

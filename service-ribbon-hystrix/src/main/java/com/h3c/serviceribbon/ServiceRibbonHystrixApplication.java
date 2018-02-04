@@ -18,10 +18,10 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @EnableHystrix //或者@EnableCircuitBreaker
 @EnableHystrixDashboard
-public class ServiceRibbonApplication {
+public class ServiceRibbonHystrixApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceRibbonApplication.class, args);
+		SpringApplication.run(ServiceRibbonHystrixApplication.class, args);
 	}
 
 	@Bean

@@ -16,6 +16,7 @@
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-file-upload" />
         <module name="microservice-gateway-zuul" />
+        <module name="microservice-gateway-zuul-filter" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-hystrix-turbine" />
         <module name="microservice-hystrix-turbine-mq" />
@@ -47,6 +48,7 @@
       <module name="microservice-discovery-eureka-ha" target="1.8" />
       <module name="microservice-file-upload" target="1.8" />
       <module name="microservice-gateway-zuul" target="1.8" />
+      <module name="microservice-gateway-zuul-filter" target="1.8" />
       <module name="microservice-hystrix-dashboard" target="1.8" />
       <module name="microservice-hystrix-turbine" target="1.8" />
       <module name="microservice-hystrix-turbine-mq" target="1.8" />
@@ -63,6 +65,7 @@
       <module name="spring-cloud" target="1.8" />
       <module name="springcloud" target="1.8" />
       <module name="springcloudlearing" target="1.8" />
+      <module name="springcloudlearning" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

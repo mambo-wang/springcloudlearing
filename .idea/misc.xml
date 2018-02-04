@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/service-feign-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
