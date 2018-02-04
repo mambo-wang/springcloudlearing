@@ -15,6 +15,8 @@ logging:
 zuul:
   routes:
     microservice-provider-user: /user/**
+#    禁用某个过滤器
+  PreRequestLogFilter.pre.disable: true
 
 # 上传大文件得将超时时间设置长一些，否则会报超时异常。以下几行超时设置来自http://cloud.spring.io/spring-cloud-static/Camden.SR3/#_uploading_files_through_zuul
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
