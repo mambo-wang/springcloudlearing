@@ -7,6 +7,17 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/mambo-wang/springcloudlearning-config-repo.git    # 配置Git仓库的地址
+          uri: https://github.com/mambo-wang/springcloudlearning-config-repo    # 配置Git仓库的地址
           username: mambo-wang                                                         # Git仓库的账号
           password: wangbao1991                                                         # Git仓库的密码
+        health:
+          repositories:
+            a-foo:
+              label: config-label-v2.0
+              name: microservice-foo
+              profiles: dev
+          enabled: true
+logging:
+  level:
+    org.springframework.cloud: debug #调整为debug能更清楚地看到请求git配置文件的过程
+    org.springframework.boot: debug
