@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/service-ribbon-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-client-cloud-bus/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

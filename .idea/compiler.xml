@@ -10,6 +10,7 @@
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="microservice-config-client" />
+        <module name="microservice-config-client-cloud-bus" />
         <module name="microservice-config-server" />
         <module name="microservice-consumer-movie" />
         <module name="microservice-discovery-eureka" />
@@ -46,6 +47,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="main" target="1.5" />
       <module name="microservice-config-client" target="1.8" />
+      <module name="microservice-config-client-cloud-bus" target="1.8" />
       <module name="microservice-config-server" target="1.8" />
       <module name="microservice-consumer-movie" target="1.8" />
       <module name="microservice-discovery-eureka" target="1.8" />
