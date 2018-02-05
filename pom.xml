@@ -17,6 +17,7 @@
         <module>microservice-discovery-eureka</module>
         <module>microservice-file-upload</module>
         <module>microservice-sidecar</module>
+        <module>microservice-config-server</module>
     </modules>
 
     <parent>
