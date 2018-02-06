@@ -1,7 +1,7 @@
 spring:
   application:
 #  对应config server所获取的配置文件的{application}
-    name: microservice-foo
+    name: springcloudlearning-config-repo
   cloud:
     config:
       uri: http://localhost:8080/
