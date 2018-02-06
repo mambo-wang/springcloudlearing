@@ -13,7 +13,7 @@ spring:
         health:
           repositories:
             a-foo:
-              label: config-label-v2.0
+              label: master
               name: microservice-foo
               profiles: dev
           enabled: true
