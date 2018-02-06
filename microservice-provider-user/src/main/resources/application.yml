@@ -5,7 +5,7 @@ eureka:
   instance:
     prefer-ip-address: true
 server:
-  port: 8763
+  port: 8000
 
 info:
   app:
@@ -32,4 +32,5 @@ logging:                                # 配置日志级别，让hibernate打�
     org.hibernate: INFO
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
-
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
+    org.springframework.cloud.sleuth: DEBUG
