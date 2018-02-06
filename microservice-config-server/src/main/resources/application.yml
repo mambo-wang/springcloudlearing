@@ -17,9 +17,9 @@ spring:
               name: microservice-foo
               profiles: dev
           enabled: true
-    bus:
-      trace:
-        enabled: true     # 开启cloud bus的跟踪
+#    bus:
+#      trace:
+#        enabled: true     # 开启cloud bus的跟踪
 eureka:
   client:
     serviceUrl:
@@ -33,3 +33,9 @@ logging:
   level:
     org.springframework.cloud: debug #调整为debug能更清楚地看到请求git配置文件的过程
     org.springframework.boot: debug
+security:
+  basic:
+    enabled: true               # 开启基于HTTP basic的认证
+  user:
+    name: user                  # 配置登录的账号是user
+    password: 123456       # 配置登录的密码是123456
