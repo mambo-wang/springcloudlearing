@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mambo/mambo.iml" filepath="$PROJECT_DIR$/mambo/mambo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mambo-copy/mambo (1).iml" filepath="$PROJECT_DIR$/mambo-copy/mambo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-config-client-cloud-bus/microservice-config-client-cloud-bus.iml" filepath="$PROJECT_DIR$/microservice-config-client-cloud-bus/microservice-config-client-cloud-bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" />
@@ -22,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" filepath="$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-mambo/service-mambo.iml" filepath="$PROJECT_DIR$/service-mambo/service-mambo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-mambo-copy/service-mambo (1).iml" filepath="$PROJECT_DIR$/service-mambo-copy/service-mambo (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix/service-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix/service-ribbon-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq/service-ribbon-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq/service-ribbon-hystrix-turbine-mq.iml" />

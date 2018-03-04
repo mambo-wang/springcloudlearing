@@ -10,6 +10,7 @@
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="mambo" />
+        <module name="mambo (1)" />
         <module name="microservice-config-client" />
         <module name="microservice-config-client-cloud-bus" />
         <module name="microservice-config-server" />
@@ -30,6 +31,7 @@
         <module name="service-common" />
         <module name="service-feign-hystrix" />
         <module name="service-mambo" />
+        <module name="service-mambo (1)" />
         <module name="service-ribbon-hystrix" />
         <module name="service-ribbon-hystrix-turbine-mq" />
       </profile>
@@ -75,6 +77,7 @@
       <module name="service-feign" target="1.8" />
       <module name="service-feign-hystrix" target="1.8" />
       <module name="service-mambo" target="1.8" />
+      <module name="service-mambo (1)" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="service-ribbon-hystrix" target="1.8" />
       <module name="service-ribbon-hystrix-turbine-mq" target="1.8" />
