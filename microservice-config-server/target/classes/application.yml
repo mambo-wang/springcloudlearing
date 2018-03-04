@@ -1,0 +1,41 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/mambo-wang/springcloudlearning-config-repo    # 配置Git仓库的地址
+          username: mambo-wang                                                         # Git仓库的账号
+          password: wangbao1991                                                         # Git仓库的密码
+        health:
+          repositories:
+            a-foo:
+              label: master
+              name: microservice-foo
+              profiles: dev
+          enabled: true
+    bus:
+      trace:
+        enabled: true     # 开启cloud bus的跟踪
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+logging:
+  level:
+    org.springframework.cloud: debug #调整为debug能更清楚地看到请求git配置文件的过程
+    org.springframework.boot: debug
+security:
+  basic:
+    enabled: true               # 开启基于HTTP basic的认证
+  user:
+    name: user                  # 配置登录的账号是user
+    password: 123456       # 配置登录的密码是123456
