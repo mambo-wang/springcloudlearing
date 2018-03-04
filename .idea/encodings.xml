@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../spring-cloud-docker-microservice-book-code/microservice-consumer-movie" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mambo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-config-client-cloud-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-config-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-consumer-movie" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka-authenticating" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-discovery-eureka-ha" charset="UTF-8" />
@@ -15,13 +16,12 @@
     <file url="file://$PROJECT_DIR$/microservice-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-hystrix-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-hystrix-turbine-mq" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-provider-user-metadata" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-sidecar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-trace-zipkin-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/service-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-feign-hystrix" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/service-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-mambo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq" charset="UTF-8" />
   </component>

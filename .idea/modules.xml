@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mambo/mambo.iml" filepath="$PROJECT_DIR$/mambo/mambo.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" filepath="$PROJECT_DIR$/microservice-config-client/microservice-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-config-client-cloud-bus/microservice-config-client-cloud-bus.iml" filepath="$PROJECT_DIR$/microservice-config-client-cloud-bus/microservice-config-client-cloud-bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" filepath="$PROJECT_DIR$/microservice-config-server/microservice-config-server.iml" />
@@ -10,18 +11,17 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/microservice-discovery-eureka-authenticating.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka-ha/microservice-discovery-eureka-ha.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-file-upload/microservice-file-upload.iml" filepath="$PROJECT_DIR$/microservice-file-upload/microservice-file-upload.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul/microservice-gateway-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-gateway-zuul-filter-fallback/microservice-gateway-zuul-filter-fallback.iml" filepath="$PROJECT_DIR$/microservice-gateway-zuul-filter-fallback/microservice-gateway-zuul-filter-fallback.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-hystrix-dashboard/microservice-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine/microservice-hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/microservice-hystrix-turbine-mq/microservice-hystrix-turbine-mq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-metadata/microservice-provider-user-metadata.iml" filepath="$PROJECT_DIR$/microservice-provider-user-metadata/microservice-provider-user-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-provider-user-my-metadata/microservice-provider-user-my-metadata.iml" filepath="$PROJECT_DIR$/microservice-provider-user-my-metadata/microservice-provider-user-my-metadata.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-sidecar/microservice-sidecar.iml" filepath="$PROJECT_DIR$/microservice-sidecar/microservice-sidecar.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-trace-zipkin-server/microservice-trace-zipkin-server.iml" filepath="$PROJECT_DIR$/microservice-trace-zipkin-server/microservice-trace-zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-common/service-common.iml" filepath="$PROJECT_DIR$/service-common/service-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" filepath="$PROJECT_DIR$/service-feign-hystrix/service-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-mambo/service-mambo.iml" filepath="$PROJECT_DIR$/service-mambo/service-mambo.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix/service-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix/service-ribbon-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq/service-ribbon-hystrix-turbine-mq.iml" filepath="$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq/service-ribbon-hystrix-turbine-mq.iml" />

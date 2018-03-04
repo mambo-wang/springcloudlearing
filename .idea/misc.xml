@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/mambo" />
+    <file type="web" url="file://$PROJECT_DIR$/service-mambo" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
-        <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/pom.xml" />
-        <option value="$PROJECT_DIR$/../spring-cloud-docker-microservice-book-code/microservice-consumer-movie/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-consumer-movie/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka-ha/src/main/pom.xml" />
         <option value="$PROJECT_DIR$/../microservice-discovery-eureka-ha/pom.xml" />
@@ -18,20 +18,24 @@
         <option value="$PROJECT_DIR$/microservice-discovery-eureka-ha/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka-authenticating/pom.xml" />
         <option value="$PROJECT_DIR$/../microservice-provider-user-my-metadata/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-hystrix-turbine-mq/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-metadata/pom.xml" />
         <option value="$PROJECT_DIR$/service-feign-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-config-client-cloud-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/../mambo/pom.xml" />
+        <option value="$PROJECT_DIR$/../service-mambo/pom.xml" />
+        <option value="$PROJECT_DIR$/mambo/pom.xml" />
+        <option value="$PROJECT_DIR$/service-mambo/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul-filter-fallback/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/microservice-provider-user/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user/pom.xml" />
       </set>
     </option>

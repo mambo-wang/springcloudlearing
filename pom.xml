@@ -20,6 +20,7 @@
         <module>microservice-config-server</module>
         <module>microservice-config-client</module>
         <module>microservice-trace-zipkin-server</module>
+        <module>service-common</module>
     </modules>
 
     <parent>
