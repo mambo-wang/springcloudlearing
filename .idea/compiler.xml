@@ -19,8 +19,8 @@
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-file-upload" />
+        <module name="microservice-gateway-zuul" />
         <module name="microservice-gateway-zuul-filter" />
-        <module name="microservice-gateway-zuul-filter-fallback" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-hystrix-turbine" />
         <module name="microservice-hystrix-turbine-mq" />
