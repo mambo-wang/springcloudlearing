@@ -2,9 +2,9 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/mambo" />
-    <file type="web" url="file://$PROJECT_DIR$/mambo-copy" />
+    <file type="web" url="file://$PROJECT_DIR$/mambo" />
     <file type="web" url="file://$PROJECT_DIR$/service-mambo" />
-    <file type="web" url="file://$PROJECT_DIR$/service-mambo-copy" />
+    <file type="web" url="file://$PROJECT_DIR$/service-mambo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -30,8 +30,6 @@
         <option value="$PROJECT_DIR$/microservice-config-client-cloud-bus/pom.xml" />
         <option value="$PROJECT_DIR$/../mambo/pom.xml" />
         <option value="$PROJECT_DIR$/../service-mambo/pom.xml" />
-        <option value="$PROJECT_DIR$/mambo/pom.xml" />
-        <option value="$PROJECT_DIR$/service-mambo/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-gateway-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/service-mambo-copy/pom.xml" />
         <option value="$PROJECT_DIR$/mambo-copy/pom.xml" />

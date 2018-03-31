@@ -4,7 +4,7 @@
     <file url="file://$PROJECT_DIR$/../spring-cloud-docker-microservice-book-code/microservice-consumer-movie" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mambo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mambo-copy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mambo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-config-client-cloud-bus" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-config-server" charset="UTF-8" />
@@ -21,7 +21,7 @@
     <file url="file://$PROJECT_DIR$/service-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-feign-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-mambo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/service-mambo-copy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-mambo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon-hystrix-turbine-mq" charset="UTF-8" />
   </component>
